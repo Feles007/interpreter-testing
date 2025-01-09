@@ -3,7 +3,7 @@
 #include <iostream>
 #include <chrono>
 #include <immintrin.h>
-#include "fstd/num.hpp"
+#include "fstd/core/num.hpp"
 #include "fstd/optimization/hints.hpp"
 
 extern "C" u64 jt(u64 opcode, u64 a, u64 b);
