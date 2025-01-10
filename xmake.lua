@@ -9,4 +9,6 @@ target("interpreter-testing")
 
 	add_asflags("-f win64 -g", {force=true})
 
+	add_defines("UNSAFE_OPTIMIZATIONS")
+
 	add_includedirs("../../Libraries/fstd/include/")
